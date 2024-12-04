@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
 
+[project.scripts]
+texmgr="texmgr.__main__:main"
+
 [dependency-groups]
 dev = [
     "hatch>=1.13.0",
